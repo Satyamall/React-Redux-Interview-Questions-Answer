@@ -130,7 +130,7 @@ In React, an "<input type="file" />" is always an uncontrolled component because
 
 # What is flux architecture?
 => Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidirectional data flow. It's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code.
-
+![download](https://user-images.githubusercontent.com/80479635/166887859-293879fa-a944-4624-a62a-57be733e9684.png)
 
 # What does React.useCallback do?
 => 
@@ -165,7 +165,7 @@ The examples of HOCs are Redux's connect and Relay's createContainer.
 => React provides a declarative API so that you don't have to worry about exactly what changes on every update. This makes writing applications a lot easier, but it might not be obvious how this is implemented within React.
 
 # Explain life cycle diagram with hooks?
-=> 
+=> ![1_EnuAy1kb9nOcFuIzM49Srw](https://user-images.githubusercontent.com/80479635/166887880-c7143219-cc89-4dac-883b-0611693357c9.png)
 
 # What does the cleanup function in useEffect do?
 => Just like the name implies, the useEffect cleanup is a function in the useEffect Hook that allows us to tidy up our code before our component unmounts. When our code runs and reruns for every render, useEffect also cleans up after itself using the cleanup function.
